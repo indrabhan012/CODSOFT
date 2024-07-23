@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="icon" type="images/x-icon" href="https://png.pngtree.com/png-vector/20190228/ourmid/pngtree-vector-portfolio-icon-png-image_711172.jpg"/>
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+</head>
+<body>
+   <header>
+        <nav>
+            <div class="signature">
+              <span><</span><span>Indrabhan Chaudhary</span> <span>/></span>
+              
+            </div>
+             <div class="menu-toggle" id="menu-toggle">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+          <!-- <div class="logo">
+               <li><img src="signature (3).png"  id="logo"/></li>  
+               </div>
+          --> 
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#open-source">Open Source</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#talks">Talks</a></li>
+                <li><a href="#contact" class="contect-active">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+    
+        menuToggle.addEventListener("click", function() {
+            navMenu.classList.toggle("show");
+        });
+    });
+    </script>
+
+
+<div class="intron">
+  
+        <div class="intro-text">
+           
+            <h1>Hi all I'm Indrabhan <span class="wave">👋</span></h1>
+            <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks</p>
+
+            <div class="social-icons">
+                <a href="#"><img src="github.png" alt="GitHub"></a>
+                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="social.png" alt="Google"></a>
+                <a href="#"><img src="gitlab.png" alt="Auth0"></a>
+                <a href="#"><img src="facebook.png" alt="Facebook"></a>
+               
+            </div>
+            <div class="buttons">
+                <a href="#" class="btn">Contact Me</a>
+                <a href="https://drive.google.com/file/d/1N4hKnzrVyaBsXkguy2U8OenzqEyokjZQ/view?usp=drive_link" class="btn">See My Resume</a>
+            </div>
+           
+        </div>
+        <div class="intro-image"> 
+            <img class="intro-image" src="portfo.jpg" alt="Coding Illustration">
+        </div>
+    </div>
+
+       
+        <div class="container">
+            <div class="image">
+                <img src="developer2.png" alt="Developer Image">
+            </div>
+            <div class="content">
+                <h1>What i do</h1>
+                <p>CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK</p>
+
+                <div class="skills">
+                    <img src="html-5.png" alt="HTML5">
+                    <img src="css-3.png" alt="CSS3">
+                    <img src="sass.png" alt="Sass">
+                    <img src="js.png" alt="JavaScript">
+                    <img src="atom.png" alt="React">
+                    <img src="node.png" alt="Node.js">
+                    <img src="swift.png" alt="Swift">
+                    <img src="npm.png" alt="npm">
+                    <img src="database.png" alt="Database">
+                    <img src="aws.png" alt="AWS">
+                    <img src="firebase.png" alt="Firebase">
+                    <img src="docker.png" alt="Docker">
+                </div>
+                <ul class="services">
+                    <li>Develop highly interactive Front end / User Interfaces for your web and mobile applications</li>
+                    <li>Progressive Web Applications (PWA) in normal and SPA Stacks</li>
+                    <li>Integration of third party services such as Firebase, AWS, Digital Ocean</li>
+                </ul>
+            </div>
+        </div>
+    <!--container 3 for skills-->
+    <div class="containerp">
+        <div class="proficiency">
+            <h1>Proficiency</h1>
+            <div class="skill">
+                <span>Frontend/Design</span>
+                <div class="bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Backend</span>
+                <div class="bar">
+                    <div class="progress" style="width: 40%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Programming</span>
+                <div class="bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="illustration">
+            <img src="profi.png" alt="Illustration">
+        </div>
+    </div>
+
+    <!--container 4 for project-->
+    <di-v class="containerosp">
+        <h1>Open Source Projects</h1>
+        <div class="projects">
+            <div class="project">
+                <h2>📁 react-blog-github</h2>
+                <p>React + Github Issues 👉 Your Personal Blog 🔥</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 56</span>
+                    <span>⭐ 495</span>
+                    <span>16424 KB</span>
+                </div>
+            </div>
+            <div class="project">
+                <h2>📁 Presidio App</h2>
+                <p>Software Developer Portfolio Template that helps you showcase your work and skills as a software developer ⚡</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 172</span>
+                    <span>⭐ 551</span>
+                    <span>11566 KB</span>
+                </div>
+            </div>
+            <div class="project">
+                <h2>📁 Responsive-Blog-Post-website</h2>
+                <p>🍏 GResponsive-Blog-Post-website using Tensorflow.js and IBM Watson. 📸</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 3</span>
+                    <span>⭐ 21</span>
+                    <span>23595 KB</span>
+                </div>
+            </div>
+            <div class="project">
+                <h2>📁 awesome-web-components</h2>
+                <p>Awesome web components and snippets for every Front-End Developer 🔥</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 15</span>
+                    <span>⭐ 17</span>
+                    <span>2054 KB</span>
+                </div>
+            </div>
+            <div class="project">
+                <h2>📁 Registration-Form-Servlet-JDBC</h2>
+                <p> Registration-Form-Servlet-JDBC with feature,Store Your Data In Sql and Share Any Where 🔥</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 5</span>
+                    <span>⭐ 7</span>
+                    <span>3165 KB</span>
+                </div>
+            </div>
+            <div class="project">
+                <h2>📁 Locate-Me</h2>
+                <p>A React Native live location application to find your loved one's 🔥</p>
+                <div class="details">
+                    <span>🟡 JavaScript</span>
+                    <span>🔄 1</span>
+                    <span>⭐ 4</span>
+                    <span>32945 KB</span>
+                </div>
+            </div>
+        </div>
+        <div class="mp">
+          <a href="https://github.com/indrabhan012"> <button class="more-projects">More Projects</button></a> 
+        </div>
+    </div>
+
+    <!--container 5 for project cards-->
+
+    <div class="containerbig">
+        <h1>Big Projects</h1>
+        <p class="subtitle">Some startups and companies that I helped to create their tech</p>
+        <div class="Bigproject">
+            <div class="projectcard">
+                <img src="saaya1.png" alt="Saayahealth">
+                <h2>Saayahealth</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="https://www.saayahealth.com/" class="visit-button">Visit Website</a>
+            </div>
+            <div class="projectcard">
+                <img src="nesxt.png" alt="Nextu">
+                <h2>Nextu</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="https://nextu.se/" class="visit-button">Visit Website</a>
+            </div>
+        </div>
+    </div>
+
+<!--container 6 for Achievements -->
+
+<div class="containerachiv">
+    <h1>Achievements And Certifications <span>🏆</span></h1>
+    <p class="subtitles">Achievements, certifications, award letters and some cool stuff that I have done!</p>
+    <div class="certifications">
+        <div class="certification">
+            <img src="gc.png" alt="Google Code-in">
+            <h2>Google Code-in Finalist</h2>
+            <p>First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries</p>
+            <div class="links">
+                <a href="#">Certification</a>
+                <a href="#">Award Letter</a>
+            </div>
+        </div>
+        <div class="certification">
+            <img src="GoogleAssistant.png" alt="Google Assistant Action">
+            <h2>Google Assistant Action</h2>
+            <p>Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices worldwide</p>
+            <div class="links">
+                <a href="#">View Google Assistant Action</a>
+            </div>
+        </div>
+        <div class="certification">
+            <img src="pwa4.png" alt="PWA Web App Developer">
+            <h2>PWA Web App Developer</h2>
+            <p>Completed Certification from SMIT for PWA Web App Development</p>
+            <div class="links">
+                <a href="#">Certification</a>
+                <a href="#">Final Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--container 7 for Blogs-->
+
+<div class="containerblog">
+    <section class="blogs">
+        <h1>Blogs</h1>
+        <p class="subtitleblog">With love for developing cool stuff. I love to write and teach others what I have learned.</p>
+        <div class="blog-posts">
+            <div class="blog-post">
+                <h2>Win a Google Assistant Tshirt and $200 in Google Cloud Credits</h2>
+                <p>Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less than 30 min.</p>
+                <div class="corner" onclick="handleClick(this)"></div>
+            </div>
+            <div class="blog-post">
+                <h2>Why REACT Is The Best?</h2>
+                <p>React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies.</p>
+                <div class="corner" onclick="handleClick(this)"></div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script>
+    function handleClick(element) {
+        element.parentElement.classList.toggle('clicked');
+    }
+</script>
+
+<!--container 8 for talk -->
+
+<div class="containertalk">
+    <h1>TALKS</h1>
+    <p>I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE <span>😅</span></p>
+    <div class="talk">
+       
+        <div class="talk-card">
+            <img src="demo03.png" width="315" height="212">
+             <p>Codelab at GDG DevFest Karachi 2019</p>
+            <div class="buttonst">
+                <button onclick="window.location.href='#'">Slides</button>
+                <button onclick="window.location.href='#'">Event</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <!--contaner 9 for tweets-->
+  <div class="containertweet">
+    <div class="tweet">
+        <div class="tweet-header">
+            <span class="tweets-by">Tweets by</span>
+            <span class="twitter-handle">@YouTube</span>
+        </div>
+        <div class="scroll-container">
+            <div class="tweet-content" id="tweetc">
+                <div class="tweet-author">
+                    <span class="author-name">YouTube at </span>
+                    <span class="verified">✔</span>
+                    <span class="author-handle">@YouTube</span>
+                </div>
+                <div class="tweet-text">
+                    Because <a href="https://twitter.com/sweetsofmyown" class="mention">@sweetsofmyown</a>'s unicorn ice-cream is even cuter when it's in miniature <span class="emoji">🦄🍦</span> &rarr; <a href="https://yt.be/6vFB" class="link">yt.be/6vFB</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+   
+  <!--container 10 for paocast-->
+   
+  <div class="podcastp">
+    <h1>Podcast <span class="icon">🎙️</span></h1>
+    <p>I love to talk about myself and technology</p>
+    <div class="podcast-player">
+        <iframe src="https://open.spotify.com/embed-podcast/episode/1HYdOep8kxgQ02GmMDJ5om" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+</div>
+
+<!--container 11 for paocast-->
+
+  <div class="podcast">
+    <div class="profile">
+        <h1>Reach Out to me!</h1>
+        <p style="font-weight: 5px;">DISCUSS A PROJECT OR JUST WANT TO SAY HI MY INBOX IS OPEN FOR ALL<p>
+        <p style="font-weight: bold;">
+            "First Pakistani Google Code-In Finalist 
+            <img src="pak.jpg" alt="Pakistan Flag" class="flag-icon"> 
+            | Software Developer 👨‍💻 | Open Source Contributor 🔥 | Speaker 🎙️ | Tech Writer ✍️"
+        </p>
+        <p> <img src="loc.png" alt="location" class="flag-icon">Karachi, Pakistan</p>
+        <p>Open for opportunities: Yes</p>
+        <div class="social-icons">
+            <a href="#"><img src="github.png" alt="GitHub"></a>
+            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="#"><img src="social.png" alt="Google"></a>
+            <a href="#"><img src="gitlab.png" alt="GitLab"></a>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+    <div class="profile-picture">
+        <img src="indrabhan.png" alt="Profile Picture">
+    </div>
+</div>
+
+<div class="content-thnaks">
+</div>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Developer By Indrabhan</p>
+        <!-- <ul class="socials">
+            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        -->
+        
+    </div>
+</footer>
+
+</body>
+</html>
